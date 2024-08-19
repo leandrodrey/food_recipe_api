@@ -3,50 +3,32 @@ import {RecipeModel} from "../models/recipe.js";
 export class RecipeController {
 
     static async getAll(req, res) {
-        const {genre} = req.query;
-        const movies = await RecipeModel.getAll({genre});
-        res.json(movies);
+        try {
+            const searchTerm = req.params.searchTerm;
+            const recipes = await RecipeModel.getAll({searchTerm});
+            res.json(recipes);
+        } catch (error) {
+            console.error('Error al obtener las recetas:', error);
+            res.status(500).json({error: 'Error interno del servidor'});
+        }
     }
 
-    static async getById(req, res) {
-        const {id} = req.params;
-        const movie = await RecipeModel.getById(id);
-        if (!movie) {
-            return res.status(404).send('Movie not found');
+    static async setRecipeRating(req, res) {
+        try {
+            const id = req.params.id;
+            const rating = req.body.rating;
+            if (!rating || rating < 1 || rating > 5) {
+                return res.status(400).json({error: 'La calificación debe ser un número entre 1 y 5'});
+            }
+            const updatedRecipe = await RecipeModel.setRecipeRating({id, rating});
+            if (!updatedRecipe) {
+                return res.status(404).json({error: 'Receta no encontrada'});
+            }
+            res.json(updatedRecipe);
+        } catch (error) {
+            console.error('Error al calificar la receta:', error);
+            res.status(500).json({error: 'Error interno del servidor'});
         }
-        res.json(movie);
-    }
-
-    static async create(req, res) {
-        const result = validateMovie(req.body);
-        if (result.error) {
-            return res.status(400).json({error: JSON.parse(result.error.message)});
-        }
-        const newMovie = await RecipeModel.create({input: result.data});
-        res.status(201).json(newMovie);
-    }
-
-    static async delete(req, res) {
-        const {id} = req.params;
-        const result = await RecipeModel.delete({id});
-        if (!result) {
-            return res.status(404).send('Movie not found');
-        }
-        res.send('Movie deleted');
-    }
-
-    static async update(req, res) {
-        const {id} = req.params;
-        const result = validatePartialMovie(req.body);
-        if (result.error) {
-            return res.status(400).json({error: JSON.parse(result.error.message)});
-        }
-
-        const updatedMovie = await MovieModel.update({id, input: result.data});
-        if (!updatedMovie) {
-            return res.status(404).send('Movie not found');
-        }
-        res.json(updatedMovie);
     }
 
 }
