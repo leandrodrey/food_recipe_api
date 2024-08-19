@@ -8,7 +8,7 @@ app.disable('x-powered-by')
 app.use(json())
 app.use(corsMiddleware())
 
-app.use('/recipe', recipeRouter);
+app.use('/recipes', recipeRouter);
 
 const PORT = process.env.PORT ?? 3000
 
