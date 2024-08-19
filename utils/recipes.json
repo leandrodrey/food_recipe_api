@@ -1,0 +1,268 @@
+[
+    {
+        "id": "receta-1",
+        "name": "Pasta a la carbonara",
+        "score": 4.5,
+        "ingredients": [
+            {
+                "name": "Spaghetti",
+                "quantity": "250g"
+            },
+            {
+                "name": "Huevos",
+                "quantity": "3"
+            },
+            {
+                "name": "Queso parmesano rallado",
+                "quantity": "50g"
+            },
+            {
+                "name": "Panceta",
+                "quantity": "100g"
+            },
+            {
+                "name": "Sal",
+                "quantity": "Al gusto"
+            },
+            {
+                "name": "Pimienta negra molida",
+                "quantity": "Al gusto"
+            }
+        ],
+        "steps": [
+            "Cocer la pasta en abundante agua con sal hasta que esté al dente.",
+            "Mientras tanto, batir los huevos con el queso parmesano rallado y un poco de pimienta negra.",
+            "Cortar la panceta en cubos pequeños y dorarla en una sartén a fuego medio hasta que esté crujiente.",
+            "Escurrir la pasta y añadirla a la sartén con la panceta. Remover bien.",
+            "Retirar la sartén del fuego y añadir la mezcla de huevo y queso. Remover rápidamente para que el huevo se cocine con el calor residual de la pasta y quede cremoso.",
+            "Servir inmediatamente con un poco más de queso parmesano rallado por encima."
+        ],
+        "ratings": [
+            4,
+            5,
+            3
+        ]
+    },
+    {
+        "id": "receta-2",
+        "name": "Pollo al curry",
+        "score": 4.2,
+        "ingredients": [
+            {
+                "name": "Pechugas de pollo",
+                "quantity": "500g"
+            },
+            {
+                "name": "Cebolla",
+                "quantity": "1"
+            },
+            {
+                "name": "Ajo",
+                "quantity": "2 dientes"
+            },
+            {
+                "name": "Jengibre fresco rallado",
+                "quantity": "1 cucharada"
+            },
+            {
+                "name": "Pasta de curry rojo",
+                "quantity": "2 cucharadas"
+            },
+            {
+                "name": "Leche de coco",
+                "quantity": "400ml"
+            },
+            {
+                "name": "Caldo de pollo",
+                "quantity": "200ml"
+            },
+            {
+                "name": "Aceite vegetal",
+                "quantity": "2 cucharadas"
+            },
+            {
+                "name": "Sal",
+                "quantity": "Al gusto"
+            },
+            {
+                "name": "Pimienta negra molida",
+                "quantity": "Al gusto"
+            },
+            {
+                "name": "Cilantro fresco picado",
+                "quantity": "Para decorar"
+            }
+        ],
+        "steps": [
+            "Cortar las pechugas de pollo en cubos medianos.",
+            "Picar la cebolla y el ajo finamente. Rallar el jengibre.",
+            "Calentar el aceite en una sartén grande a fuego medio-alto. Añadir el pollo y cocinar hasta que esté dorado por todos lados. Retirar el pollo de la sartén y reservar.",
+            "En la misma sartén, añadir la cebolla y cocinar hasta que esté transparente. Agregar el ajo y el jengibre, y cocinar por un minuto más.",
+            "Añadir la pasta de curry rojo y cocinar por un par de minutos, removiendo constantemente.",
+            "Verter la leche de coco y el caldo de pollo en la sartén. Llevar a ebullición, luego reducir el fuego y cocinar a fuego lento durante 10-15 minutos, o hasta que la salsa espese.",
+            "Volver a añadir el pollo a la sartén y cocinar hasta que esté bien cocido.",
+            "Sazonar con sal y pimienta al gusto. Decorar con cilantro fresco picado y servir con arroz."
+        ],
+        "ratings": [
+            4,
+            4,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "receta-3",
+        "name": "Ensalada César",
+        "score": 4.8,
+        "ingredients": [
+            {
+                "name": "Lechuga romana",
+                "quantity": "1 cabeza"
+            },
+            {
+                "name": "Pan de molde",
+                "quantity": "2 rebanadas"
+            },
+            {
+                "name": "Ajo",
+                "quantity": "1 diente"
+            },
+            {
+                "name": "Aceite de oliva",
+                "quantity": "3 cucharadas"
+            },
+            {
+                "name": "Anchoas",
+                "quantity": "2 filetes"
+            },
+            {
+                "name": "Yema de huevo",
+                "quantity": "1"
+            },
+            {
+                "name": "Mostaza Dijon",
+                "quantity": "1 cucharadita"
+            },
+            {
+                "name": "Jugo de limón",
+                "quantity": "1 cucharada"
+            },
+            {
+                "name": "Queso parmesano rallado",
+                "quantity": "50g"
+            },
+            {
+                "name": "Sal",
+                "quantity": "Al gusto"
+            },
+            {
+                "name": "Pimienta negra molida",
+                "quantity": "Al gusto"
+            }
+        ],
+        "steps": [
+            "Lavar y cortar la lechuga romana en trozos pequeños.",
+            "Cortar el pan en cubos y tostarlos en una sartén con un poco de aceite de oliva hasta que estén dorados y crujientes. Frotar un diente de ajo en los cubos de pan tostado.",
+            "En un bol, machacar las anchoas con un tenedor. Añadir la yema de huevo, la mostaza Dijon, el jugo de limón, el queso parmesano rallado, la sal y la pimienta. Mezclar bien hasta obtener una salsa cremosa.",
+            "Añadir la lechuga y los cubos de pan tostado al bol con la salsa. Mezclar bien para que todos los ingredientes se cubran con la salsa.",
+            "Servir inmediatamente."
+        ],
+        "ratings": [
+            5,
+            5,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "receta-4",
+        "name": "Tarta de manzana",
+        "score": null,
+        "ingredients": [
+            {
+                "name": "Harina de trigo",
+                "quantity": "200g"
+            },
+            {
+                "name": "Mantequilla fría",
+                "quantity": "100g"
+            },
+            {
+                "name": "Azúcar",
+                "quantity": "50g"
+            },
+            {
+                "name": "Agua fría",
+                "quantity": "50ml"
+            },
+            {
+                "name": "Manzanas",
+                "quantity": "4"
+            },
+            {
+                "name": "Azúcar moreno",
+                "quantity": "100g"
+            },
+            {
+                "name": "Canela molida",
+                "quantity": "1 cucharadita"
+            },
+            {
+                "name": "Jugo de limón",
+                "quantity": "1 cucharada"
+            }
+        ],
+        "steps": [
+            "Para la masa, mezclar la harina y el azúcar en un bol. Añadir la mantequilla fría cortada en cubos y mezclar con los dedos hasta obtener una textura arenosa.",
+            "Añadir el agua fría poco a poco y mezclar hasta formar una masa homogénea. Envolver en film transparente y refrigerar por 30 minutos.",
+            "Precalentar el horno a 180°C. Estirar la masa y forrar un molde para tarta.",
+            "Pelar, descorazonar y cortar las manzanas en láminas finas. Rociar con jugo de limón para evitar que se oxiden.",
+            "Mezclar las manzanas con el azúcar moreno y la canela.",
+            "Colocar las manzanas sobre la masa en el molde.",
+            "Hornear durante 30-40 minutos, o hasta que la masa esté dorada y las manzanas tiernas.",
+            "Dejar enfriar antes de servir."
+        ],
+        "ratings": [ ]
+    },
+    {
+        "id": "receta-5",
+        "name": "Smoothie de frutas",
+        "score": 5.0,
+        "ingredients": [
+            {
+                "name": "Plátano",
+                "quantity": "1"
+            },
+            {
+                "name": "Fresas",
+                "quantity": "1 taza"
+            },
+            {
+                "name": "Mango",
+                "quantity": "1/2"
+            },
+            {
+                "name": "Espinacas frescas",
+                "quantity": "1 puñado"
+            },
+            {
+                "name": "Leche de almendras",
+                "quantity": "1 taza"
+            },
+            {
+                "name": "Miel",
+                "quantity": "1 cucharada (opcional)"
+            }
+        ],
+        "steps": [
+            "Pelar el plátano y el mango. Lavar las fresas y las espinacas.",
+            "Cortar el plátano y el mango en trozos. Quitar las hojas de las fresas.",
+            "Añadir todos los ingredientes a una licuadora y batir hasta obtener una mezcla suave y homogénea.",
+            "Si lo deseas, añade una cucharada de miel para endulzar.",
+            "Servir inmediatamente."
+        ],
+        "ratings": [
+            5
+        ]
+    }
+]
