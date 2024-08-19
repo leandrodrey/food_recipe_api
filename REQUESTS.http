@@ -1,0 +1,13 @@
+### GET all Recipes
+GET http://localhost:3000/recipes
+
+### GET Search Recipes by name or ingredients
+GET http://localhost:3000/recipes/pasta
+
+### POST Add a new rating to a Recipe
+PATCH http://localhost:3000/recipes/rating/receta-1
+Content-Type: application/json
+
+{
+    "rating": 2
+}
