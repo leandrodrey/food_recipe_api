@@ -1,6 +1,6 @@
 import express, {json} from "express";
-import {corsMiddleware} from "./middlewares/cors";
-import {recipeRouter} from "./router/recipe";
+import {corsMiddleware} from "./middlewares/cors.js";
+import {recipeRouter} from "./router/recipe.js";
 
 const app = express()
 
