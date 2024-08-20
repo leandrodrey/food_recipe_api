@@ -18,26 +18,27 @@ export class RecipeModel {
         return recipes;
     }
 
+    static async getRecipeById({id}) {
+        return recipes.find((recipe) => recipe.id === id);
+    }
+
     static async setRecipeRating({id, rating}) {
         const recipe = recipes.find((recipe) => recipe.id === id);
         if (!recipe) {
             return false;
         }
         recipe.ratings.push(rating);
-
         const total = recipe.ratings.reduce((sum, r) => sum + r, 0);
         recipe.score = total / recipe.ratings.length;
-
         try {
             await writeJSON('./recipes.json', recipes);
         } catch (error) {
             console.error('Error al guardar los cambios en el archivo JSON:', error);
         }
-
         return recipe;
     }
 
-    static ratedRecipes(sortBy = 'desc') {
+    static getRatedRecipes(sortBy = 'desc') {
         return recipes.sort((a, b) => {
             if (a.score === b.score) {
                 return a.name.localeCompare(b.name);

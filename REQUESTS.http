@@ -1,11 +1,14 @@
 ### GET all Recipes
-GET http://localhost:3000/recipes
+GET http://localhost:4000/recipes
+
+### GET Recipe by id
+GET http://localhost:4000/recipes/detail/receta-1
 
 ### GET Search Recipes by name or ingredients
-GET http://localhost:3000/recipes/pasta
+GET http://localhost:4000/recipes/pasta
 
 ### POST Add a new rating to a Recipe
-PATCH http://localhost:3000/recipes/rating/receta-1
+PATCH http://localhost:4000/recipes/rating/receta-1
 Content-Type: application/json
 
 {
@@ -13,5 +16,5 @@ Content-Type: application/json
 }
 
 ### GET Add a new rating to a Recipe
-GET http://localhost:3000/recipes/rating/desc
+GET http://localhost:4000/recipes/rating/desc
 Content-Type: application/json

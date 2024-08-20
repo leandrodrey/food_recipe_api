@@ -13,6 +13,20 @@ export class RecipeController {
         }
     }
 
+    static async getRecipeById(req, res) {
+        try {
+            const id = req.params.id;
+            const recipe = await RecipeModel.getRecipeById({id});
+            if (!recipe) {
+                return res.status(404).json({error: 'Receta no encontrada'});
+            }
+            res.json(recipe);
+        } catch (error) {
+            console.error('Error al obtener la receta:', error);
+            res.status(500).json({error: 'Error interno del servidor'});
+        }
+    }
+
     static async setRecipeRating(req, res) {
         try {
             const id = req.params.id;
@@ -31,10 +45,10 @@ export class RecipeController {
         }
     }
 
-    static async ratedRecipes(req, res) {
+    static async getRatedRecipes(req, res) {
         try {
             const sortBy = req.params.sortBy;
-            const recipes = await RecipeModel.ratedRecipes(sortBy);
+            const recipes = await RecipeModel.getRatedRecipes(sortBy);
             res.json(recipes);
         } catch (error) {
             console.error('Error al obtener las recetas:', error);
