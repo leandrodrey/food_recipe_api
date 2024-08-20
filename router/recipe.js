@@ -5,3 +5,4 @@ export const recipeRouter = Router();
 
 recipeRouter.get('/:searchTerm?', RecipeController.getAll);
 recipeRouter.patch('/rating/:id', RecipeController.setRecipeRating);
+recipeRouter.get('/rating/:sortBy', RecipeController.ratedRecipes);

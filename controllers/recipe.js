@@ -31,4 +31,15 @@ export class RecipeController {
         }
     }
 
+    static async ratedRecipes(req, res) {
+        try {
+            const sortBy = req.params.sortBy;
+            const recipes = await RecipeModel.ratedRecipes(sortBy);
+            res.json(recipes);
+        } catch (error) {
+            console.error('Error al obtener las recetas:', error);
+            res.status(500).json({error: 'Error interno del servidor'});
+        }
+    }
+
 }

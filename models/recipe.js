@@ -37,4 +37,16 @@ export class RecipeModel {
         return recipe;
     }
 
+    static ratedRecipes(sortBy = 'desc') {
+        return recipes.sort((a, b) => {
+            if (a.score === b.score) {
+                return a.name.localeCompare(b.name);
+            } else if (sortBy === 'asc') {
+                return a.score - b.score;
+            } else {
+                return b.score - a.score;
+            }
+        });
+    }
+
 }

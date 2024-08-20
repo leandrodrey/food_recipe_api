@@ -11,3 +11,7 @@ Content-Type: application/json
 {
     "rating": 2
 }
+
+### GET Add a new rating to a Recipe
+GET http://localhost:3000/recipes/rating/desc
+Content-Type: application/json
