@@ -6,27 +6,33 @@
         "ingredients": [
             {
                 "name": "Spaghetti",
-                "quantity": "250g"
+                "quantity": 250,
+                "unity": "g"
             },
             {
                 "name": "Huevos",
-                "quantity": "3"
+                "quantity": 3,
+                "unity": "unidades"
             },
             {
                 "name": "Queso parmesano rallado",
-                "quantity": "50g"
+                "quantity": 50,
+                "unity": "g"
             },
             {
                 "name": "Panceta",
-                "quantity": "100g"
+                "quantity": 100,
+                "unity": "g"
             },
             {
                 "name": "Sal",
-                "quantity": "Al gusto"
+                "quantity": null,
+                "unity": "al gusto"
             },
             {
                 "name": "Pimienta negra molida",
-                "quantity": "Al gusto"
+                "quantity": null,
+                "unity": "al gusto"
             }
         ],
         "steps": [
@@ -50,47 +56,58 @@
         "ingredients": [
             {
                 "name": "Pechugas de pollo",
-                "quantity": "500g"
+                "quantity": 500,
+                "unity": "g"
             },
             {
                 "name": "Cebolla",
-                "quantity": "1"
+                "quantity": 1,
+                "unity": "unidad"
             },
             {
                 "name": "Ajo",
-                "quantity": "2 dientes"
+                "quantity": 2,
+                "unity": "dientes"
             },
             {
                 "name": "Jengibre fresco rallado",
-                "quantity": "1 cucharada"
+                "quantity": 1,
+                "unity": "cucharada"
             },
             {
                 "name": "Pasta de curry rojo",
-                "quantity": "2 cucharadas"
+                "quantity": 2,
+                "unity": "cucharadas"
             },
             {
                 "name": "Leche de coco",
-                "quantity": "400ml"
+                "quantity": 400,
+                "unity": "ml"
             },
             {
                 "name": "Caldo de pollo",
-                "quantity": "200ml"
+                "quantity": 200,
+                "unity": "ml"
             },
             {
                 "name": "Aceite vegetal",
-                "quantity": "2 cucharadas"
+                "quantity": 2,
+                "unity": "cucharadas"
             },
             {
                 "name": "Sal",
-                "quantity": "Al gusto"
+                "quantity": null,
+                "unity": "al gusto"
             },
             {
                 "name": "Pimienta negra molida",
-                "quantity": "Al gusto"
+                "quantity": null,
+                "unity": "al gusto"
             },
             {
                 "name": "Cilantro fresco picado",
-                "quantity": "Para decorar"
+                "quantity": null,
+                "unity": "para decorar"
             }
         ],
         "steps": [
@@ -117,47 +134,58 @@
         "ingredients": [
             {
                 "name": "Lechuga romana",
-                "quantity": "1 cabeza"
+                "quantity": 1,
+                "unity": "cabeza"
             },
             {
                 "name": "Pan de molde",
-                "quantity": "2 rebanadas"
+                "quantity": 2,
+                "unity": "rebanadas"
             },
             {
                 "name": "Ajo",
-                "quantity": "1 diente"
+                "quantity": 1,
+                "unity": "diente"
             },
             {
                 "name": "Aceite de oliva",
-                "quantity": "3 cucharadas"
+                "quantity": 3,
+                "unity": "cucharadas"
             },
             {
                 "name": "Anchoas",
-                "quantity": "2 filetes"
+                "quantity": 2,
+                "unity": "filetes"
             },
             {
                 "name": "Yema de huevo",
-                "quantity": "1"
+                "quantity": 1,
+                "unity": "unidad"
             },
             {
                 "name": "Mostaza Dijon",
-                "quantity": "1 cucharadita"
+                "quantity": 1,
+                "unity": "cucharadita"
             },
             {
                 "name": "Jugo de limón",
-                "quantity": "1 cucharada"
+                "quantity": 1,
+                "unity": "cucharada"
             },
             {
                 "name": "Queso parmesano rallado",
-                "quantity": "50g"
+                "quantity": 50,
+                "unity": "g"
             },
             {
                 "name": "Sal",
-                "quantity": "Al gusto"
+                "quantity": null,
+                "unity": "al gusto"
             },
             {
                 "name": "Pimienta negra molida",
-                "quantity": "Al gusto"
+                "quantity": null,
+                "unity": "al gusto"
             }
         ],
         "steps": [
@@ -181,35 +209,43 @@
         "ingredients": [
             {
                 "name": "Harina de trigo",
-                "quantity": "200g"
+                "quantity": 200,
+                "unity": "g"
             },
             {
                 "name": "Mantequilla fría",
-                "quantity": "100g"
+                "quantity": 100,
+                "unity": "g"
             },
             {
                 "name": "Azúcar",
-                "quantity": "50g"
+                "quantity": 50,
+                "unity": "g"
             },
             {
                 "name": "Agua fría",
-                "quantity": "50ml"
+                "quantity": 50,
+                "unity": "ml"
             },
             {
                 "name": "Manzanas",
-                "quantity": "4"
+                "quantity": 4,
+                "unity": "unidades"
             },
             {
                 "name": "Azúcar moreno",
-                "quantity": "100g"
+                "quantity": 100,
+                "unity": "g"
             },
             {
                 "name": "Canela molida",
-                "quantity": "1 cucharadita"
+                "quantity": 1,
+                "unity": "cucharadita"
             },
             {
                 "name": "Jugo de limón",
-                "quantity": "1 cucharada"
+                "quantity": 1,
+                "unity": "cucharada"
             }
         ],
         "steps": [
@@ -231,27 +267,33 @@
         "ingredients": [
             {
                 "name": "Plátano",
-                "quantity": "1"
+                "quantity": "1",
+                "unity": "unidad"
             },
             {
                 "name": "Fresas",
-                "quantity": "1 taza"
+                "quantity": "1 ",
+                "unity": "taza"
             },
             {
                 "name": "Mango",
-                "quantity": "1/2"
+                "quantity": "1/2",
+                "unity": "unidad"
             },
             {
                 "name": "Espinacas frescas",
-                "quantity": "1 puñado"
+                "quantity": "1",
+                "unity": "puñado"
             },
             {
                 "name": "Leche de almendras",
-                "quantity": "1 taza"
+                "quantity": "1",
+                "unity": "taza"
             },
             {
                 "name": "Miel",
-                "quantity": "1 cucharada (opcional)"
+                "quantity": "1",
+                "unity": "cucharada"
             }
         ],
         "steps": [
