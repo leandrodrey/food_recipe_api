@@ -29,9 +29,9 @@ export class RecipeModel {
         }
         recipe.ratings.push(rating);
         const total = recipe.ratings.reduce((sum, r) => sum + r, 0);
-        recipe.score = total / recipe.ratings.length;
+        recipe.score = (total / recipe.ratings.length).toFixed(1);
         try {
-            await writeJSON('./recipes.json', recipes);
+            await writeJSON('./utils/recipes.json', recipes);
         } catch (error) {
             console.error('Error al guardar los cambios en el archivo JSON:', error);
         }
