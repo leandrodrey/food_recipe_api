@@ -39,7 +39,8 @@ export class RecipeModel {
     }
 
     static getRatedRecipes(sortBy = 'desc') {
-        return recipes.sort((a, b) => {
+        const filteredRecipes = recipes.filter(recipe => recipe.score !== null);
+        return filteredRecipes.sort((a, b) => {
             if (a.score === b.score) {
                 return a.name.localeCompare(b.name);
             } else if (sortBy === 'asc') {
