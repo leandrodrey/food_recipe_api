@@ -1,9 +1,8 @@
 import cors from "cors";
 
 const ACCEPTED_ORIGINS = [
-    process.env.VERCEL_URL,
     'http://localhost:3000',
-    'https://food-recipe.elsuperhard.com',
+    'https://food-recipe.elsuperhard.com/'
 ];
 
 export const corsMiddleware = ({ acceptedOrigins = ACCEPTED_ORIGINS } = {}) => cors(
